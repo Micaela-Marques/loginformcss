@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="login form CSS" src="./assets/Cover.png" width="800px">
+  <img alt="login form CSS" src="./images/Cover.png" width="800px">
 
 </p>
 
