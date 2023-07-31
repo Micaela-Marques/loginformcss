@@ -1,0 +1,190 @@
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: var(--background);
+  justify-content: space-between;
+  height: 100vh;
+}
+header {
+  margin-top: 40px;
+  margin-left: 47px;
+}
+
+/*Card settings*/
+
+.container {
+  background-color: var(--form-background);
+  width: 572px;
+  height: 512px;
+  border-radius: 4px;
+  display: flex;
+  margin: 126px 74px 0;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 120px;
+}
+
+/* Text top*/
+.text-top-register {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.text-register {
+  color: var(--text-title);
+  font-family: Poppins;
+  font-size: 24px;
+}
+.text-register-top {
+  width: 334px;
+  height: 23px;
+  color: var(--text-base);
+  margin-top: 5px;
+}
+
+/* input email */
+.email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-email {
+  color: var(--text-base);
+  margin-top: 27px;
+}
+.input-email {
+  width: 425px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 0px 0px 2px var(--text-title);
+}
+.field-email {
+  width: 335px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 0px 0px 2px var(--text-title);
+  flex-shrink: 0;
+  background: var(--form-background);
+  padding: 0px 30px;
+  color: var(--text-base);
+  margin-top: 5px;
+}
+.icon-email {
+  margin-top: -32px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+/* input password*/
+
+.password {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 20px;
+}
+.text-password {
+  color: var(--text-base);
+}
+
+.field-password {
+  width: 335px;
+  height: 44px;
+  background: var(--form-background);
+  border-radius: 4px;
+  border: 1px solid var(--text-base);
+  padding: 0px 30px;
+  color: var(--text-base);
+  margin-top: 5px;
+}
+.icon-password {
+  margin-top: 40px;
+  margin-left: 7px;
+  position: absolute;
+  display: flex;
+  gap: 327px;
+}
+.icon-eye {
+  position: absolute;
+  left: 503px;
+  margin-top: 41px;
+}
+
+input::placeholder {
+  color: var(--text-base);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* checkbox*/
+.remember {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 34px;
+}
+.chk {
+  margin-right: 3px;
+}
+
+label {
+  color: var(--text-base);
+  display: flex;
+  flex: auto;
+}
+.text-esq {
+  color: var(--primary-color);
+}
+
+/*botton*/
+
+.end {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+  justify-content: center;
+}
+.text-end {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+/* button */
+.btn {
+  display: flex;
+  width: 334px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--primary-color);
+  cursor: pointer;
+  margin-top: auto;
+}
+
+/*image*/
+.img {
+  height: 100%;
+  display: flex;
+}
